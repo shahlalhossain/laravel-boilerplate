@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('authors', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id')->unsigned();
-//            $table->foreign('user_id')->references('id')->on('users');
             $table->integer('articles')->unsigned()->default(0);
             $table->integer('comments')->unsigned()->default(0);
             $table->integer('likes')->unsigned()->default(0);

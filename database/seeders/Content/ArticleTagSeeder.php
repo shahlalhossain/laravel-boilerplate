@@ -18,68 +18,60 @@ class ArticleTagSeeder extends Seeder
     {
         $this->disableForeignKeys();
 
-        $this->truncate('tags');
-
         if (app()->environment(['production'])) {
-            $tags = [
-                ['name' => 'How-To',        'description' => 'How-To'],
-                ['name' => 'Tips',          'description' => 'Tips'],
-                ['name' => 'Tricks',        'description' => 'Tricks'],
-                ['name' => 'Tutorial',      'description' => 'Tutorial'],
-                ['name' => 'Motivation',    'description' => 'Motivation'],
-                ['name' => 'Opinion',       'description' => 'Opinion'],
-                ['name' => 'Interview',     'description' => 'Interview'],
-                ['name' => 'Success',       'description' => 'Success'],
-                ['name' => 'Advice',        'description' => 'Advice'],
-                ['name' => 'Budget',        'description' => 'Budget'],
-                ['name' => 'Fitness',       'description' => 'Fitness'],
-                ['name' => 'Health',        'description' => 'Health'],
-                ['name' => 'Lifestyle',     'description' => 'Lifestyle'],
-                ['name' => 'Parenting',     'description' => 'Parenting'],
-                ['name' => 'Travel',        'description' => 'Travel'],
-                ['name' => 'Recipes',       'description' => 'Recipes'],
-                ['name' => 'Family',        'description' => 'Family'],
-                ['name' => 'Books',         'description' => 'Books'],
-                ['name' => 'Science',       'description' => 'Science'],
-                ['name' => 'Technology',    'description' => 'Technology'],
-                ['name' => 'Finance',       'description' => 'Finance'],
-                ['name' => 'Marketing',     'description' => 'Marketing'],
-                ['name' => 'Career',        'description' => 'Career'],
-                ['name' => 'Design',        'description' => 'Design'],
-                ['name' => 'Learning',      'description' => 'Learning'],
-            ];
-            Tag::create($tags);
+            $this->truncate('tags');
+            Tag::create(['name' => 'Tips',          'description' => 'Tips']);
+            Tag::create(['name' => 'Tricks',        'description' => 'Tricks']);
+            Tag::create(['name' => 'Tutorial',      'description' => 'Tutorial']);
+            Tag::create(['name' => 'Motivation',    'description' => 'Motivation']);
+            Tag::create(['name' => 'Opinion',       'description' => 'Opinion']);
+            Tag::create(['name' => 'Interview',     'description' => 'Interview']);
+            Tag::create(['name' => 'Success',       'description' => 'Success']);
+            Tag::create(['name' => 'Advice',        'description' => 'Advice']);
+            Tag::create(['name' => 'Budget',        'description' => 'Budget']);
+            Tag::create(['name' => 'Fitness',       'description' => 'Fitness']);
+            Tag::create(['name' => 'Health',        'description' => 'Health']);
+            Tag::create(['name' => 'Lifestyle',     'description' => 'Lifestyle']);
+            Tag::create(['name' => 'Parenting',     'description' => 'Parenting']);
+            Tag::create(['name' => 'Travel',        'description' => 'Travel']);
+            Tag::create(['name' => 'Recipes',       'description' => 'Recipes']);
+            Tag::create(['name' => 'Family',        'description' => 'Family']);
+            Tag::create(['name' => 'Books',         'description' => 'Books']);
+            Tag::create(['name' => 'Science',       'description' => 'Science']);
+            Tag::create(['name' => 'Technology',    'description' => 'Technology']);
+            Tag::create(['name' => 'Finance',       'description' => 'Finance']);
+            Tag::create(['name' => 'Marketing',     'description' => 'Marketing']);
+            Tag::create(['name' => 'Career',        'description' => 'Career']);
+            Tag::create(['name' => 'Design',        'description' => 'Design']);
+            Tag::create(['name' => 'Learning',      'description' => 'Learning']);
         }
 
         if (app()->environment(['staging', 'testing', 'development', 'local'])) {
-            $tags = [
-                ['name' => 'How-To',        'description' => 'How-To'],
-                ['name' => 'Tips',          'description' => 'Tips'],
-                ['name' => 'Tricks',        'description' => 'Tricks'],
-                ['name' => 'Tutorial',      'description' => 'Tutorial'],
-                ['name' => 'Motivation',    'description' => 'Motivation'],
-                ['name' => 'Opinion',       'description' => 'Opinion'],
-                ['name' => 'Interview',     'description' => 'Interview'],
-                ['name' => 'Success',       'description' => 'Success'],
-                ['name' => 'Advice',        'description' => 'Advice'],
-                ['name' => 'Budget',        'description' => 'Budget'],
-                ['name' => 'Fitness',       'description' => 'Fitness'],
-                ['name' => 'Health',        'description' => 'Health'],
-                ['name' => 'Lifestyle',     'description' => 'Lifestyle'],
-                ['name' => 'Parenting',     'description' => 'Parenting'],
-                ['name' => 'Travel',        'description' => 'Travel'],
-                ['name' => 'Recipes',       'description' => 'Recipes'],
-                ['name' => 'Family',        'description' => 'Family'],
-                ['name' => 'Books',         'description' => 'Books'],
-                ['name' => 'Science',       'description' => 'Science'],
-                ['name' => 'Technology',    'description' => 'Technology'],
-                ['name' => 'Finance',       'description' => 'Finance'],
-                ['name' => 'Marketing',     'description' => 'Marketing'],
-                ['name' => 'Career',        'description' => 'Career'],
-                ['name' => 'Design',        'description' => 'Design'],
-                ['name' => 'Learning',      'description' => 'Learning'],
-            ];
-            Tag::create($tags);
+            $this->truncate('tags');
+            Tag::create(['name' => 'Tips',          'description' => 'Tips']);
+            Tag::create(['name' => 'Tricks',        'description' => 'Tricks']);
+            Tag::create(['name' => 'Tutorial',      'description' => 'Tutorial']);
+            Tag::create(['name' => 'Motivation',    'description' => 'Motivation']);
+            Tag::create(['name' => 'Opinion',       'description' => 'Opinion']);
+            Tag::create(['name' => 'Interview',     'description' => 'Interview']);
+            Tag::create(['name' => 'Success',       'description' => 'Success']);
+            Tag::create(['name' => 'Advice',        'description' => 'Advice']);
+            Tag::create(['name' => 'Budget',        'description' => 'Budget']);
+            Tag::create(['name' => 'Fitness',       'description' => 'Fitness']);
+            Tag::create(['name' => 'Health',        'description' => 'Health']);
+            Tag::create(['name' => 'Lifestyle',     'description' => 'Lifestyle']);
+            Tag::create(['name' => 'Parenting',     'description' => 'Parenting']);
+            Tag::create(['name' => 'Travel',        'description' => 'Travel']);
+            Tag::create(['name' => 'Recipes',       'description' => 'Recipes']);
+            Tag::create(['name' => 'Family',        'description' => 'Family']);
+            Tag::create(['name' => 'Books',         'description' => 'Books']);
+            Tag::create(['name' => 'Science',       'description' => 'Science']);
+            Tag::create(['name' => 'Technology',    'description' => 'Technology']);
+            Tag::create(['name' => 'Finance',       'description' => 'Finance']);
+            Tag::create(['name' => 'Marketing',     'description' => 'Marketing']);
+            Tag::create(['name' => 'Career',        'description' => 'Career']);
+            Tag::create(['name' => 'Design',        'description' => 'Design']);
+            Tag::create(['name' => 'Learning',      'description' => 'Learning']);
         }
 
         $this->enableForeignKeys();

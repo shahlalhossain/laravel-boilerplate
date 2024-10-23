@@ -21,9 +21,9 @@ class ContentSeeder extends Seeder
     {
         $this->disableForeignKeys();
 
-//        $this->call(ArticleTagSeeder::class);
-//        $this->call(ArticleCategorySeeder::class);
-//        $this->call(ArticleSeeder::class);
+        $this->call(ArticleTagSeeder::class);
+        $this->call(ArticleCategorySeeder::class);
+        $this->call(ArticleSeeder::class);
         $this->call(ArticleCommentsSeeder::class);
 
         $this->enableForeignKeys();

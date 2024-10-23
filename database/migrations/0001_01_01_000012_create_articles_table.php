@@ -24,6 +24,10 @@ return new class extends Migration
             $table->boolean('active')->default(true);
             $table->string('status')->default('draft'); // Draft/On-Review/Published
 
+            $table->boolean('is_featured')->default(false)->comment('For Slider');
+            $table->boolean('top_priority')->default(false)->comment('For Homepage');
+            $table->integer('priority_order')->unsigned()->default(0)->comment('0:block, 1:list');
+
             $table->integer('views')->default(0);
             $table->integer('likes')->default(0);
             $table->integer('dislikes')->default(0);
@@ -61,6 +65,7 @@ return new class extends Migration
             $table->unsignedInteger('parent_id')->nullable();
 
             $table->boolean('active')->default(true);
+            $table->integer('priority_order')->unsigned()->default(0);
 
             $table->string('created_by')->nullable();
             $table->string('updated_by')->nullable();

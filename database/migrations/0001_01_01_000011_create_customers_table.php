@@ -15,7 +15,6 @@ return new class extends Migration
             $table->bigIncrements('id');
 
             $table->integer('user_id')->unsigned();
-//            $table->foreignId('user_id')->references('id')->on('users');
             $table->integer('favorite_articles')->unsigned()->default(0);
             $table->integer('comments')->unsigned()->default(0);
             $table->integer('likes')->unsigned()->default(0);
