@@ -17,147 +17,150 @@
                 {{--                <li><a href="contact.html">Teams</a></li>--}}
                 <li class="dropdown"><a href="#"><span>Article Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="{{ route('article.index') }}"><i class="bi bi-list"></i>All Articles</a></li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category One</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Two</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Three</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Four</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Five</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Six</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Seven</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Eight</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Nine</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li><li class="separator"></li>
-                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Ten</span></a>
-                            <ul>
-                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>
-                                <li><a href="#">Sub-Category Ten</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="{{ route('article.index') }}">All Articles<i class="bi bi-list"></i></a></li><li class="separator"></li>
+                        @foreach($articleCategories as $articleCategory)
+                            <li><a href="{{ route('article.index') }}">{{ ucwords($articleCategory->name) }}<i class="bi bi-chevron-right"></i></a></li><li class="separator"></li>
+                        @endforeach
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category One</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Two</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Three</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Four</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Five</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Six</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Seven</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Eight</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Nine</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li><li class="separator"></li>--}}
+                        {{--                        <li class="dropdown"><a href="#"><i class="bi bi-chevron-left toggle-dropdown"></i><span>Category Ten</span></a>--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><a href="#">Sub-Category One</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Two</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Three</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Four</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Five</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Six</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Seven</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Eight</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Nine</a></li><li class="separator"></li>--}}
+                        {{--                                <li><a href="#">Sub-Category Ten</a></li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </li>--}}
                     </ul>
                 </li>
             </ul>
@@ -168,8 +171,8 @@
 
         <div class="header-social-links">
             @guest
-                <a href="#" class="btn btn-sm btn-success text-white" >Login</a>
-                <a href="#" class="btn btn-sm btn-info text-white">Registration</a>
+                <a href="{{ route('login') }}" class="btn btn-sm btn-success text-white" >Login</a>
+                <a href="{{ route('register') }}" class="btn btn-sm btn-info text-white">Registration</a>
             @else
                 <nav class="rightnavmenu">
                     <ul>
@@ -189,6 +192,13 @@
                                 <li><a href="#">My Activities</a></li><li class="separator"></li>
                                 <li><a href="#">Login History</a></li><li class="separator"></li>
                                 <li><a href="#">Account Settings</a></li><li class="separator"></li>
+                                <li class="separator"></li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">@csrf</form>
+                                </li>
                             </ul>
                         </li>
                     </ul>

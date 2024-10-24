@@ -54,6 +54,8 @@
                             </div>
                         </div>
 
+
+
                         <?php $imagePath = 'themes/zenblog/assets/img/post-slide-2.jpg'; ?>
                         <div class="swiper-slide" style="background-image: url(<?php echo $imagePath ?>);">
                             <div class="content">

@@ -6,6 +6,8 @@ yarn-error.log
 bootstrap/compiled.php
 app/storage/
 
+.idea/
+
 #public/themes
 public/storage
 public/hot

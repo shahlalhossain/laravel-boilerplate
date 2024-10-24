@@ -29,24 +29,20 @@ if (! function_exists('carbon')) {
     }
 }
 
-if (! function_exists('homeRoute')) {
+if (! function_exists('afterLoginRoute')) {
     /**
      * Return the route to the "home" page depending on authentication/authorization status.
      *
      * @return string
      */
-    function homeRoute()
+    function afterLoginRoute()
     {
         if (auth()->check()) {
-            if (auth()->user()->isAdmin()) {
-                return 'admin.dashboard';
-            }
-
-            if (auth()->user()->isUser()) {
-                return 'frontend.user.dashboard';
-            }
+            if (auth()->user()->isAdmin()) { return 'admin.dashboard'; }
+            if (auth()->user()->isAdmin()) { return 'author.dashboard'; }
+            if (auth()->user()->isUser()) { return 'user.dashboard'; }
         }
 
-        return 'frontend.index';
+        return 'home';
     }
 }
