@@ -1,5 +1,7 @@
 @extends('auth.layout.master')
 
+@section('title', __('Login'))
+
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
