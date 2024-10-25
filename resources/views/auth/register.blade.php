@@ -47,9 +47,9 @@
                             </div>
 
                             <div class="row mb-3">
-                                <label for="confirm_password" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
+                                <label for="password_confirmation" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
                                 <div class="col-md-6">
-                                    <input type="password" id="confirm_password" class="form-control" name="confirm_password" required>
+                                    <input type="password" id="password_confirmation" class="form-control" name="password_confirmation" required>
                                 </div>
                             </div>
 

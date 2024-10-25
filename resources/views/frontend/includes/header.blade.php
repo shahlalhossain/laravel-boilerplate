@@ -182,7 +182,7 @@
                                 <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
-                                <li><a href="#">My Dashboard</a></li><li class="separator"></li>
+                                <li><a href="{{ route('dashboard') }}">My Dashboard</a></li><li class="separator"></li>
                                 <li><a href="#">My Profile</a></li><li class="separator"></li>
                                 <li><a href="#">Update Profile</a></li><li class="separator"></li>
                                 <li><a href="#">Change Password</a></li><li class="separator"></li>

@@ -42,7 +42,9 @@ class User extends Authenticatable
     protected $fillable = [
         // TODO:
         'name',
+        'mobile',
         'email',
+        'username',
         'password',
     ];
 
